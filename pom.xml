@@ -49,6 +49,16 @@
 		<maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
 	</properties>
 
+	<dependencies>
+		<dependency>
+			<groupId>com.alipay</groupId>
+			<artifactId>msp</artifactId>
+			<version>${project.version}</version>
+			<scope>system</scope>
+			<systemPath>${basedir}/lib/alipay_msp.jar</systemPath>
+		</dependency>
+	</dependencies>
+
 	<build>
 		<pluginManagement>
 			<plugins>
